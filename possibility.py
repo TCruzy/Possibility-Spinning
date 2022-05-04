@@ -73,7 +73,7 @@ def spinning(spin, my_coin = 0):
                     time.sleep(2)
     print("You Won ", my_coin, " coin")
     if my_coin > 3500:
-        print("You Won 3500+ Coin And We Will Gave You Additional 3 spins, Good Luck <3 ")
+        print("You Won 3500+ Coin And We Will Gave You Additional 3 spins, Good Luck <3  ")
         time.sleep(2)
         spinning(spin = 3, my_coin = my_coin)
 
