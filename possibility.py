@@ -2,22 +2,6 @@ from random import randint
 import string, time
 from tqdm import tqdm
 
-
-# az_Upper = string.ascii_uppercase
-# list1 = []
-# random_str = ''
-# for i in az_Upper:
-#     list1.append(i)
-# question_for_string_range = int(input("how much length of string you want? "))
-# for i in range(0, question_for_string_range):
-#     ran = randint(0, 2)
-#     if ran == 0:
-#         random_str += str(randint(0,9))
-#     elif ran == 1:
-#         random_str += list1[randint(0,25)]
-#     else:
-#         random_str += list1[randint(0,25)].lower()
-# print("your id is ", random_str)
 while True:
     for_skip = input("Do You Want To Skip Spins? (y/n) ").lower()
     skip = False
